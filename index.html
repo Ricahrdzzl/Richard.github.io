@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>For You</title>
+  <meta name="description" content="动态爱心表白页">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="hero">
+    <canvas id="heartCanvas" aria-hidden="true"></canvas>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-copy">
+      <p class="hero-text">
+        不是一时兴起，不是随口一说，<br>
+        是我在很多个安静瞬间里，都还是会想起你
+      </p>
+      <a class="hero-button" href="#final-photo">看最后的你</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="photo-section" id="final-photo">
+      <div class="photo-frame">
+        <div class="photo-glow"></div>
+        <img src="./photo.jpg" alt="照片">
+      </div>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
